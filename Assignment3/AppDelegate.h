@@ -12,6 +12,8 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+//@interface ViewController ： UIViewController <UITableViewDelegate, UITableViewDataSource>
+
 @property (strong, nonatomic) UIWindow *window;
 
 @property (strong, nonatomic) UINavigationController *navController;

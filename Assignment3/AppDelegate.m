@@ -19,7 +19,7 @@
     
     ViewController * vc = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.navController = [[UINavigationController alloc] initWithRootViewController:vc];
-    [[self.navController navigationBar] setBarStyle:UIBarStyleBlack];
+    [[self.navController navigationBar] setBarStyle:UIBarStyleDefault];
     self.window.rootViewController = self.navController;
     
     
